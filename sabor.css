@@ -121,3 +121,32 @@ div.gallery {
     background-size: cover;
     background-attachment: fixed;
 } */
+
+@media screen and (max-width:400px){
+    #presentacion {
+    height: 300px;
+    background-repeat: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    }
+ 
+}
+
+@media screen and (max-width:400px){
+    #titulo{
+
+        font-size: 50px;
+
+    }
+
+}
+
+@media screen and (max-width:400px){
+    #presen{
+
+        padding-top: 90px;
+        height: 100%
+    }
+
+}
