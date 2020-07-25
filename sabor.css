@@ -1,0 +1,123 @@
+#presentacion{
+
+    background-image: url(fotos/food.jpg);
+    background-repeat: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 625px;
+    
+    
+}
+
+
+#presen{
+    padding-top:200px;
+    
+    
+}
+
+#titulo{
+    font-size: 120px;
+    font-family: 'Yellowtail', cursive;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    
+    
+    
+    
+    
+}
+
+body{
+    background-color: rgba(70, 69, 68, 0.452);
+   
+}
+
+#uno{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    color: rgb(10, 10, 10);
+    height: 625px;
+    background-color: white ;
+    
+    
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+.galeria{
+    margin-left: 30px;
+}
+
+
+#destacado{
+    font-size: 25px;
+    margin-top: 300px;
+    
+}
+
+.telefono{
+   font-size: 200px; 
+   color: rgb(241, 237, 236);
+   margin-top: 30px;
+}
+
+.numero{
+    font-size: 90px;
+    color: rgb(245, 241, 240);
+    padding: 50px;
+    font-family: 'Yellowtail', cursive;
+}
+
+
+.row{
+
+    padding-top:  150px;
+}
+
+.descr{
+    margin-top: 40px;
+}
+
+.mapouter{
+    margin-left: 200px;
+}
+
+
+.contacto{
+    background-image: url(fotos/pizza-4968645.jpg);
+    background-repeat: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+/* .swal-overlay {
+    background-image: url(fotos/food.jpg);
+    background-repeat: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
