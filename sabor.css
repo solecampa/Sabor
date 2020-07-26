@@ -125,9 +125,10 @@ div.gallery {
 @media screen and (max-width:400px){
     #presentacion {
     height: 300px;
+    width: 400px;
     background-repeat: none;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 400px 400px;
     background-attachment: fixed;
     }
  
@@ -148,5 +149,90 @@ div.gallery {
         padding-top: 90px;
         height: 100%
     }
+
+}
+
+
+@media screen and (max-width:400px){
+    #uno{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 10px;
+        height: 400px;
+        
+        
+        
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:400px){
+    div.gallery {
+        margin: 1px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 100px;
+}
+}
+@media screen and (max-width:400px){  
+  div.gallery img {
+    width: 100%;
+    height: 70px;
+}
+}  
+ 
+
+@media screen and (max-width:400px){  
+    #destacado{
+        font-size: 10px;
+        margin-top: 170px;
+        
+    }
+}
+
+@media screen and (max-width:400px){  
+    #gmap_canvas{
+        
+        width: 400px;
+        height: 400px;
+        
+    }
+}
+
+
+@media screen and (max-width:400px){  
+    .mapouter{
+        margin-left: 5px;
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width:400px){  
+    .gmap_canvas{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .numero{
+        font-size: 25px;
+        color: rgb(245, 241, 240);
+        padding: 5px;
+        font-family: 'Yellowtail', cursive;
+    }
+
+    .telefono{
+        font-size: 65px; 
+        color: rgb(241, 237, 236);
+        margin-top: 30px;
+     }
 
 }
