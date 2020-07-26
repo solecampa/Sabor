@@ -79,6 +79,23 @@ div.gallery {
     
 }
 
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:625px;
+    width:960px;
+
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:100%;
+    width:100%;
+
+}
+
+
 .telefono{
    font-size: 200px; 
    color: rgb(241, 237, 236);
@@ -202,27 +219,29 @@ div.gallery {
 @media screen and (max-width:400px){  
     #gmap_canvas{
         
-        width: 400px;
-        height: 400px;
-        
+        width: 100%;
+        height: 100%;
+        margin-right: 0px;
     }
 }
 
 
 @media screen and (max-width:400px){  
     .mapouter{
-        margin-left: 5px;
-        width: 400px;
+        height: 500px;
+        width: 500px;
         padding: 0px;
-        margin-left: 2px;
+        margin: auto;
+       
+        
     }
 }
 
 
 @media screen and (max-width:400px){  
     .gmap_canvas{
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
     }
 }
 
@@ -243,6 +262,7 @@ div.gallery {
     #uno {
 
         width: 400px;
+        margin: auto;
     }
 
     .contacto{
@@ -254,7 +274,7 @@ div.gallery {
 
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 900px){
     #presentacion {
         height: 400px;
         width: 640px;
