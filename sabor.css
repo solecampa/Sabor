@@ -258,13 +258,13 @@ div.gallery {
         color: rgb(241, 237, 236);
         margin-top: 30px;
     }
-
+@media screen and (max-width:400px){
     #uno {
 
         width: 400px;
-        margin-left: 40px;
+       
     }
-
+}
     .contacto{
         width: 400px;
     }
@@ -302,7 +302,8 @@ div.gallery {
         font-size: 20px;
         width: 550px;
         height: 400px;
-        margin-left: 15px;
+        
+        
 
         
         
