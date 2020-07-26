@@ -181,9 +181,9 @@ div.gallery {
 }
 }
 @media screen and (max-width:400px){  
-  div.gallery img {
+    div.gallery img {
     width: 100%;
-    height: 50px;
+    height: 70px;
 }
     div.galeria{
         margin-left: 1px;
