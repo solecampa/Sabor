@@ -327,7 +327,7 @@ div.gallery {
     }
     #gmap_canvas{
         
-        width: 500px;
+        max-width: 500px;
         height: 350px;
         
     }
